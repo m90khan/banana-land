@@ -1,0 +1,178 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: #ffd863;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #ffd863;
+}
+a {
+  color: black;
+}
+input[type='range'] {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: black;
+  border-radius: 5px;
+  width: 100%;
+  height: 2px;
+  outline: 0;
+}
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #000;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+input[type='range']::-webkit-slider-thumb:active {
+  transform: scale(1);
+}
+
+.DTzvh {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: #ffd863;
+  -webkit-animation: gYgSRh 4s normal forwards ease-in-out;
+  animation: gYgSRh 4s normal forwards ease-in-out;
+}
+.iyeEdE {
+  font-family: 'Inter';
+  font-size: 16px;
+}
+.iyeEdE h1 {
+  padding: 0;
+  margin: 0 0 0.05em 0;
+  font-family: 'Ayer Poster', serif;
+  font-weight: 400;
+  font-size: min(18vw, 14em);
+  line-height: 0.85em;
+}
+.cTiawD {
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+}
+.dHRIqA {
+  position: absolute;
+  bottom: 5vw;
+  left: 5vw;
+  width: 30ch;
+  max-width: 40%;
+}
+.iodLUB {
+  position: absolute;
+  bottom: 5vw;
+  right: 5vw;
+  width: 35ch;
+  max-width: 40%;
+  line-height: 1em;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  text-align: right;
+}
+.iBuMzm {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  top: 5vw;
+  right: 5vw;
+}
+.iBuMzm > div {
+  position: relative;
+  width: 24px;
+  height: 2px;
+  background: #252525;
+  margin-bottom: 6px;
+}
+.iJkPeA {
+  position: absolute;
+  bottom: 50%;
+  right: 5vw;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 1em;
+  -webkit-letter-spacing: -0.01em;
+  -moz-letter-spacing: -0.01em;
+  -ms-letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  font-size: 12px;
+  -webkit-transform: rotate(90deg) translate3d(50%, 0, 0);
+  -ms-transform: rotate(90deg) translate3d(50%, 0, 0);
+  transform: rotate(90deg) translate3d(50%, 0, 0);
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+.caPVdA {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  -ms-transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+}
+.caPVdA g.skin {
+  cursor: pointer;
+}
+@-webkit-keyframes gYgSRh {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes gYgSRh {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
